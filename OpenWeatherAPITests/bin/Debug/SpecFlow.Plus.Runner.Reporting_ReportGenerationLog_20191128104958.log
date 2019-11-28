@@ -1,0 +1,23 @@
+﻿2019-11-28T10:49:59.0076273+02:00;Thread#1;Info;Reading test run result from Json file "C:\Users\raminta.linkute\AppData\Local\Temp\tmp7177.tmp".
+2019-11-28T10:49:59.0096968+02:00;Thread#1;Info;Successfully read test run result from Json file "C:\Users\raminta.linkute\AppData\Local\Temp\tmp7177.tmp"
+2019-11-28T10:49:59.0096968+02:00;Thread#1;Info;Deserializing test run result
+2019-11-28T10:49:59.2380038+02:00;Thread#1;Error;System.Exception thrown during deserialization: System.Exception: Not a FilterItem.
+   at TechTalk.SpecRun.Framework.JsonConverterExtensions.DeserializeToFilterItem(JObject jsonObject)
+   at TechTalk.SpecRun.Framework.JsonConverterExtensions.Deserialize[T](JsonReader reader, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize[T](JsonReader reader)
+   at TechTalk.SpecRun.Framework.Services.JsonNetSerializer.Deserialize[T](FSharpOption`1 source)
+2019-11-28T10:49:59.2380038+02:00;Thread#1;Error;Test run result could not be loaded. The content of "C:\Users\raminta.linkute\AppData\Local\Temp\tmp7177.tmp" is not a valid JSON test run result.
+2019-11-28T10:49:59.2380038+02:00;Thread#1;Error;Could not fetch the test run results.
+========== End of log file ==========

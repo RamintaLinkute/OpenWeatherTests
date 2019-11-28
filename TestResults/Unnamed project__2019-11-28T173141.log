@@ -1,0 +1,165 @@
+﻿2019-11-28T17:31:41.2065844+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-11-28T17:31:41.2065844+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.36 in Framework clr40 in x86 mode execution started
+2019-11-28T17:31:41.2065844+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-11-28T17:31:41.2514642+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T17:31:41.2514642+02:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults" (default)
+2019-11-28T17:31:41.2514642+02:00;VSTestExecutionThread;Info;Profile: 
+2019-11-28T17:31:41.2724081+02:00;VSTestExecutionThread;Info;Log file path: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults\Unnamed project__2019-11-28T173141.log
+2019-11-28T17:31:41.2833785+02:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-11-28T17:31:41.2883654+02:00;Thread#13;Info;Checking license
+2019-11-28T17:31:41.3027732+02:00;Thread#13;Info;Evaluation mode: test execution starts in 12 seconds... (this delay is removed in the registered version)
+2019-11-28T17:31:53.3036579+02:00;Thread#13;Info;Evaluation delay finished.
+2019-11-28T17:31:53.3156315+02:00;Thread#13;Info;License check completed
+2019-11-28T17:31:53.3166286+02:00;Thread#13;Info;starting test run
+2019-11-28T17:31:53.3315900+02:00;Thread#13;Info;Discovering target: Default
+2019-11-28T17:31:53.3315900+02:00;Thread#13;Info;Discovering tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T17:31:53.5938859+02:00;Thread#13;Info;Discovered tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T17:31:53.5948833+02:00:Test Suite Dump
+2019-11-28T17:31:53.5968788+02:00:#0: Unnamed project/ - 
+2019-11-28T17:31:53.5968788+02:00:#1: Default - 
+2019-11-28T17:31:53.5968788+02:00:#2: OpenWeatherAPITests - 
+2019-11-28T17:31:53.5968788+02:00:#9: CallCurrentWeatherDataForSeveralCities - 
+2019-11-28T17:31:53.6307885+02:00:#10: Call for several city IDs - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForSeveralCities/Scenario:Call+for+several+city+IDs
+2019-11-28T17:31:53.6307885+02:00:#11: Call for more than 20 city IDs - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForSeveralCities/Scenario:Call+for+more+than+20+city+IDs
+2019-11-28T17:31:53.6307885+02:00:End: Test Suite Dump
+2019-11-28T17:31:53.6507671+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T17:31:53.6517317+02:00:Thread#:Scheduler: testitem #10 from normal test queue 
+2019-11-28T17:31:53.6517317+02:00:Thread#0:Scheduler: considering testitem #10 for thread 0
+2019-11-28T17:31:53.6557208+02:00:Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T17:31:53.6557208+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+2019-11-28T17:31:53.6557208+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+2019-11-28T17:31:53.6557208+02:00:Thread#0:Scheduler: using testitem #10 for thread 0
+2019-11-28T17:31:53.6567185+02:00:Thread#0:Scheduler: Test #10 is scheduled for thread
+2019-11-28T17:31:53.6577156+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T17:31:53.6607070+02:00:Thread #0: creating new test thread executor for OpenWeatherAPITests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-11-28T17:31:53.6617047+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T17:31:53.6836817+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T17:31:53.6846787+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-11-28T17:31:54.5500002+02:00:Thread#0:T:-> Loading plugin C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-11-28T17:31:54.5729391+02:00:Thread#0:T:-> Using default config
+2019-11-28T17:31:55.5508418+02:00:Thread#0: Test #10/0 is started on thread #0
+2019-11-28T17:31:55.5687560+02:00:Thread#0:B:Given IDs '524901,703448,2643743' exists in the system
+2019-11-28T17:31:55.6116662+02:00:Thread#0:T:binding error: Ambiguous step definitions found for step 'Given IDs '524901,703448,2643743' exists in the system': OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem(Decimal), OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem(String)
+2019-11-28T17:31:55.6126709+02:00:Thread#0:B:When I request to get the weather data by ids
+2019-11-28T17:31:55.6146656+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T17:31:55.6146656+02:00:Thread#0:B:Then Count '3' is returned in the response
+2019-11-28T17:31:55.6156627+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T17:31:55.6166349+02:00:Thread#0:B:And status code 'OK' is returned in the response
+2019-11-28T17:31:55.6166349+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T17:31:55.6884705+02:00:Thread#0:TestItem#10:Scheduler: reschedule tests for testitem #10
+2019-11-28T17:31:55.6884705+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T17:31:55.6884705+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #10
+2019-11-28T17:31:55.6884705+02:00:Thread#0:Scheduler: considering testitem #10 for thread 0
+2019-11-28T17:31:55.6884705+02:00:Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T17:31:55.6884705+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+2019-11-28T17:31:55.6884705+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+2019-11-28T17:31:55.6884705+02:00:Thread#0:Scheduler: using testitem #10 for thread 0
+2019-11-28T17:31:55.6894665+02:00:Thread#0:Scheduler: Test #10 is scheduled for thread
+2019-11-28T17:31:55.6894665+02:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-11-28T17:31:55.7004380+02:00:Thread#0: Test #10/0 is finished on thread #0 as Failed within 0.1486043 seconds
+2019-11-28T17:31:55.7014011+02:00:Thread#0: Test #10/1 is started on thread #0
+2019-11-28T17:31:55.7014011+02:00:Thread#0:B:Given IDs '524901,703448,2643743' exists in the system
+2019-11-28T17:31:55.7023985+02:00:Thread#0:T:binding error: Ambiguous step definitions found for step 'Given IDs '524901,703448,2643743' exists in the system': OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem(Decimal), OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem(String)
+2019-11-28T17:31:55.7023985+02:00:Thread#0:B:When I request to get the weather data by ids
+2019-11-28T17:31:55.7023985+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T17:31:55.7023985+02:00:Thread#0:B:Then Count '3' is returned in the response
+2019-11-28T17:31:55.7023985+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T17:31:55.7023985+02:00:Thread#0:B:And status code 'OK' is returned in the response
+2019-11-28T17:31:55.7023985+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T17:31:55.7033959+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T17:31:55.7033959+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #10
+2019-11-28T17:31:55.7033959+02:00:Thread#0:Scheduler: considering testitem #10 for thread 0
+2019-11-28T17:31:55.7033959+02:00:Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T17:31:55.7033959+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+2019-11-28T17:31:55.7033959+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+2019-11-28T17:31:55.7033959+02:00:Thread#0:Scheduler: using testitem #10 for thread 0
+2019-11-28T17:31:55.7033959+02:00:Thread#0:Scheduler: Test #10 is scheduled for thread
+2019-11-28T17:31:55.7033959+02:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-11-28T17:31:55.7033959+02:00:Thread#0: Test #10/1 is finished on thread #0 as Failed within 0.0019948 seconds
+2019-11-28T17:31:55.7043932+02:00:Thread#0: Test #10/2 is started on thread #0
+2019-11-28T17:31:55.7043932+02:00:Thread#0:B:Given IDs '524901,703448,2643743' exists in the system
+2019-11-28T17:31:55.7043932+02:00:Thread#0:T:binding error: Ambiguous step definitions found for step 'Given IDs '524901,703448,2643743' exists in the system': OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem(Decimal), OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem(String)
+2019-11-28T17:31:55.7043932+02:00:Thread#0:B:When I request to get the weather data by ids
+2019-11-28T17:31:55.7043932+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T17:31:55.7053910+02:00:Thread#0:B:Then Count '3' is returned in the response
+2019-11-28T17:31:55.7053910+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T17:31:55.7053910+02:00:Thread#0:B:And status code 'OK' is returned in the response
+2019-11-28T17:31:55.7053910+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T17:31:55.7063891+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T17:31:55.7063891+02:00:Thread#:Scheduler: testitem #11 from normal test queue 
+2019-11-28T17:31:55.7063891+02:00:Thread#0:Scheduler: considering testitem #11 for thread 0
+2019-11-28T17:31:55.7063891+02:00:Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T17:31:55.7063891+02:00:Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+2019-11-28T17:31:55.7063891+02:00:Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+2019-11-28T17:31:55.7063891+02:00:Thread#0:Scheduler: using testitem #11 for thread 0
+2019-11-28T17:31:55.7063891+02:00:Thread#0:Scheduler: Test #11 is scheduled for thread
+2019-11-28T17:31:55.7063891+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T17:31:55.7063891+02:00:Thread#0: Test #10/2 is finished on thread #0 as Failed within 0.0019959 seconds
+2019-11-28T17:31:55.7063891+02:00:Thread#0: Test #11/0 is started on thread #0
+2019-11-28T17:31:55.7073854+02:00:Thread#0:B:Given IDs '524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743' exists in the system
+2019-11-28T17:31:55.8161291+02:00:Thread#0:T:done: CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem("524901,703448,264...") (0.1s)
+2019-11-28T17:31:55.8171243+02:00:Thread#0:B:When I request to get the weather data by ids
+2019-11-28T17:31:56.0143277+02:00:Thread#0:T:done: CallCurrentWeatherDataForSeveralCitiesSteps.WhenIRequestToGetTheWeatherDataByIds() (0.2s)
+2019-11-28T17:31:56.0143277+02:00:Thread#0:B:Then Message 'id list must be in range from 1 to 20' is returned in the response
+2019-11-28T17:31:56.0711765+02:00:Thread#0:T:error: Assert.AreEqual failed. Expected:<id list must be in range from 1 to 20>. Actual:<524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743 is not a city ID>. 
+2019-11-28T17:31:56.0721728+02:00:Thread#0:TestItem#11:Scheduler: reschedule tests for testitem #11
+2019-11-28T17:31:56.0721728+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T17:31:56.0721728+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #11
+2019-11-28T17:31:56.0721728+02:00:Thread#0:Scheduler: considering testitem #11 for thread 0
+2019-11-28T17:31:56.0721728+02:00:Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T17:31:56.0721728+02:00:Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+2019-11-28T17:31:56.0721728+02:00:Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+2019-11-28T17:31:56.0721728+02:00:Thread#0:Scheduler: using testitem #11 for thread 0
+2019-11-28T17:31:56.0721728+02:00:Thread#0:Scheduler: Test #11 is scheduled for thread
+2019-11-28T17:31:56.0732041+02:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-11-28T17:31:56.0761947+02:00:Thread#0: Test #11/0 is finished on thread #0 as Failed within 0.3698056 seconds
+2019-11-28T17:31:56.0761947+02:00:Thread#0: Test #11/1 is started on thread #0
+2019-11-28T17:31:56.0761947+02:00:Thread#0:B:Given IDs '524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743' exists in the system
+2019-11-28T17:31:56.0771597+02:00:Thread#0:T:done: CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem("524901,703448,264...") (0.0s)
+2019-11-28T17:31:56.0771597+02:00:Thread#0:B:When I request to get the weather data by ids
+2019-11-28T17:31:56.1185335+02:00:Thread#0:T:done: CallCurrentWeatherDataForSeveralCitiesSteps.WhenIRequestToGetTheWeatherDataByIds() (0.0s)
+2019-11-28T17:31:56.1185335+02:00:Thread#0:B:Then Message 'id list must be in range from 1 to 20' is returned in the response
+2019-11-28T17:31:56.1195327+02:00:Thread#0:T:error: Assert.AreEqual failed. Expected:<id list must be in range from 1 to 20>. Actual:<524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743 is not a city ID>. 
+2019-11-28T17:31:56.1195327+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T17:31:56.1195327+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #11
+2019-11-28T17:31:56.1195327+02:00:Thread#0:Scheduler: considering testitem #11 for thread 0
+2019-11-28T17:31:56.1195327+02:00:Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T17:31:56.1195327+02:00:Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+2019-11-28T17:31:56.1195327+02:00:Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+2019-11-28T17:31:56.1195327+02:00:Thread#0:Scheduler: using testitem #11 for thread 0
+2019-11-28T17:31:56.1195327+02:00:Thread#0:Scheduler: Test #11 is scheduled for thread
+2019-11-28T17:31:56.1195327+02:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-11-28T17:31:56.1205294+02:00:Thread#0: Test #11/1 is finished on thread #0 as Failed within 0.0443347 seconds
+2019-11-28T17:31:56.1205294+02:00:Thread#0: Test #11/2 is started on thread #0
+2019-11-28T17:31:56.1205294+02:00:Thread#0:B:Given IDs '524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743' exists in the system
+2019-11-28T17:31:56.1205294+02:00:Thread#0:T:done: CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem("524901,703448,264...") (0.0s)
+2019-11-28T17:31:56.1215257+02:00:Thread#0:B:When I request to get the weather data by ids
+2019-11-28T17:31:56.1706674+02:00:Thread#0:T:done: CallCurrentWeatherDataForSeveralCitiesSteps.WhenIRequestToGetTheWeatherDataByIds() (0.0s)
+2019-11-28T17:31:56.1716637+02:00:Thread#0:B:Then Message 'id list must be in range from 1 to 20' is returned in the response
+2019-11-28T17:31:56.1736588+02:00:Thread#0:T:error: Assert.AreEqual failed. Expected:<id list must be in range from 1 to 20>. Actual:<524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743 is not a city ID>. 
+2019-11-28T17:31:56.1746559+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T17:31:56.1746559+02:00:Thread#:Scheduler: at the end of normal test queue
+2019-11-28T17:31:56.1746559+02:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-11-28T17:31:56.1746559+02:00:Thread#0:Scheduler: No more tests for thread
+2019-11-28T17:31:56.2066175+02:00:Thread#0: Test #11/2 is finished on thread #0 as Failed within 0.0860881 seconds
+2019-11-28T17:31:56.2265159+02:00:Trying to cancel thread
+2019-11-28T17:31:56.2265159+02:00:Thread cancelled
+2019-11-28T17:31:56.2345292+02:00:Thread#-1:Scheduler: get next test for thread -1
+2019-11-28T17:31:56.2345292+02:00:Thread#:Scheduler: at the end of normal test queue
+2019-11-28T17:31:56.2345292+02:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-11-28T17:31:56.2395194+02:00;Thread#13;Info;test run finished
+2019-11-28T17:31:56.2395194+02:00;Thread#13;Info;publishing test results
+2019-11-28T17:31:56.3362217+02:00;Thread#13;Info;test results published
+2019-11-28T17:31:56.3362217+02:00;Thread#13;Info;generating reports
+2019-11-28T17:31:56.4251189+02:00;Thread#13;Info;Starting external report generation process
+2019-11-28T17:31:56.9277655+02:00;Thread#13;Error;Could not generate test run result reports. An error occurred in the generator.
+2019-11-28T17:31:56.9277655+02:00;Thread#13;Error;External program returned exit code '-1'
+2019-11-28T17:31:56.9287625+02:00;Thread#13;Info;Failed generating reports
+2019-11-28T17:31:56.9357453+02:00:Total: 2 (test executions: 6)
+2019-11-28T17:31:56.9367430+02:00:Succeeded: 0
+2019-11-28T17:31:56.9377386+02:00:Ignored: 0
+2019-11-28T17:31:56.9377386+02:00:Pending: 0
+2019-11-28T17:31:56.9377386+02:00:Skipped: 0
+2019-11-28T17:31:56.9387356+02:00:Failed: 2
+2019-11-28T17:31:56.9467153+02:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

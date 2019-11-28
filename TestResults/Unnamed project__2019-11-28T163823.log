@@ -1,0 +1,95 @@
+﻿2019-11-28T16:38:23.0172181+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-11-28T16:38:23.0172181+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.36 in Framework clr40 in x86 mode execution started
+2019-11-28T16:38:23.0172181+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-11-28T16:38:23.0511264+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T16:38:23.0511264+02:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults" (default)
+2019-11-28T16:38:23.0521242+02:00;VSTestExecutionThread;Info;Profile: 
+2019-11-28T16:38:23.0740665+02:00;VSTestExecutionThread;Info;Log file path: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults\Unnamed project__2019-11-28T163823.log
+2019-11-28T16:38:23.0870324+02:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-11-28T16:38:23.0999965+02:00;Thread#14;Info;Checking license
+2019-11-28T16:38:23.1239329+02:00;Thread#14;Info;Evaluation mode: test execution starts in 8 seconds... (this delay is removed in the registered version)
+2019-11-28T16:38:31.1254933+02:00;Thread#14;Info;Evaluation delay finished.
+2019-11-28T16:38:31.1324742+02:00;Thread#14;Info;License check completed
+2019-11-28T16:38:31.1324742+02:00;Thread#14;Info;starting test run
+2019-11-28T16:38:31.1554504+02:00;Thread#14;Info;Discovering target: Default
+2019-11-28T16:38:31.1554504+02:00;Thread#14;Info;Discovering tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T16:38:31.5432140+02:00;Thread#14;Info;Discovered tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T16:38:31.5442099+02:00:Test Suite Dump
+2019-11-28T16:38:31.5452073+02:00:#0: Unnamed project/ - 
+2019-11-28T16:38:31.5452073+02:00:#1: Default - 
+2019-11-28T16:38:31.5452073+02:00:#2: OpenWeatherAPITests - 
+2019-11-28T16:38:31.5452073+02:00:#3: CallCurrentWeatherDataForOneLocation - 
+2019-11-28T16:38:31.5811439+02:00:#6: Call current weather data for one location by city name and country code - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForOneLocation/Scenario:Call+current+weather+data+for+one+location+by+city+name+and+country+code
+2019-11-28T16:38:31.5811439+02:00:End: Test Suite Dump
+2019-11-28T16:38:31.6040847+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T16:38:31.6060794+02:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2019-11-28T16:38:31.6060794+02:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-11-28T16:38:31.6100682+02:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T16:38:31.6100682+02:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-11-28T16:38:31.6100682+02:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-11-28T16:38:31.6100682+02:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-11-28T16:38:31.6110667+02:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-11-28T16:38:31.6110667+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T16:38:31.6130585+02:00:Thread #0: creating new test thread executor for OpenWeatherAPITests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-11-28T16:38:31.6150540+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T16:38:31.6249946+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T16:38:31.6269890+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-11-28T16:38:31.9968315+02:00:Thread#0:T:-> Loading plugin C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-11-28T16:38:32.0062823+02:00:Thread#0:T:-> Using default config
+2019-11-28T16:38:32.6595396+02:00:Thread#0: Test #6/0 is started on thread #0
+2019-11-28T16:38:32.6815024+02:00:Thread#0:B:Given City 'London' exists in the system
+2019-11-28T16:38:39.3044791+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.GivenCityExistsInTheSystem("London") (6.5s)
+2019-11-28T16:38:49.8091464+02:00:Thread#0:B:And country code 'uk' exists in the system
+2019-11-28T16:38:54.7787532+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.GivenCountryCodeExistsInTheSystem("uk") (5.0s)
+2019-11-28T16:38:58.3776094+02:00:Thread#0:B:When I request to get the weather data by city and country code
+2019-11-28T16:39:54.9741463+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.WhenIRequestToGetTheWeatherDataByCityAndCountryCode() (56.6s)
+2019-11-28T16:39:58.0461282+02:00:Thread#0:B:Then City 'London' is returned in the response
+2019-11-28T16:40:16.7194064+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.ThenCityIsReturnedInTheResponse("London") (18.7s)
+2019-11-28T16:40:21.5178109+02:00:Thread#0:B:And the response status code is 'OK'
+2019-11-28T16:40:21.6848016+02:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2019-11-28T16:40:21.6848016+02:00:Thread#0:T:        [Then(@"the response status code is '(.*)'")]
+2019-11-28T16:40:21.6848016+02:00:Thread#0:T:        public void ThenTheResponseStatusCodeIs(string oK)
+2019-11-28T16:40:21.6848016+02:00:Thread#0:T:        {
+2019-11-28T16:40:21.6848016+02:00:Thread#0:T:            ScenarioContext.Current.Pending();
+2019-11-28T16:40:21.6848016+02:00:Thread#0:T:        }
+2019-11-28T16:40:30.0572139+02:00:Thread#0:T:Pending: No matching step definition found for one or more steps.
+2019-11-28T16:40:30.0572139+02:00:Thread#0:T:using System;
+2019-11-28T16:40:30.0572139+02:00:Thread#0:T:using TechTalk.SpecFlow;
+2019-11-28T16:40:30.0582120+02:00:Thread#0:T:namespace MyNamespace
+2019-11-28T16:40:30.0582120+02:00:Thread#0:T:{
+2019-11-28T16:40:30.0582120+02:00:Thread#0:T:    [Binding]
+2019-11-28T16:40:30.0582120+02:00:Thread#0:T:    public class StepDefinitions
+2019-11-28T16:40:30.0582120+02:00:Thread#0:T:    {
+2019-11-28T16:40:30.0582120+02:00:Thread#0:T:        [Then(@"the response status code is '(.*)'")]
+2019-11-28T16:40:30.0582120+02:00:Thread#0:T:        public void ThenTheResponseStatusCodeIs(string oK0)
+2019-11-28T16:40:30.0582120+02:00:Thread#0:T:        {
+2019-11-28T16:40:30.0582120+02:00:Thread#0:T:            ScenarioContext.Current.Pending();
+2019-11-28T16:40:30.0582120+02:00:Thread#0:T:        }
+2019-11-28T16:40:30.0582120+02:00:Thread#0:T:    }
+2019-11-28T16:40:30.0582120+02:00:Thread#0:T:}
+2019-11-28T16:40:30.0651926+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T16:40:30.0651926+02:00:Thread#:Scheduler: at the end of normal test queue
+2019-11-28T16:40:30.0651926+02:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-11-28T16:40:30.0651926+02:00:Thread#0:Scheduler: No more tests for thread
+2019-11-28T16:40:34.1253303+02:00:Thread#0: Test #6/0 is finished on thread #0 as Pending within 121.4647936 seconds
+2019-11-28T16:40:36.0560430+02:00:Trying to cancel thread
+2019-11-28T16:40:36.0560430+02:00:Thread cancelled
+2019-11-28T16:40:36.0620604+02:00:Thread#-1:Scheduler: get next test for thread -1
+2019-11-28T16:40:36.0620604+02:00:Thread#:Scheduler: at the end of normal test queue
+2019-11-28T16:40:36.0620604+02:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-11-28T16:40:36.0640212+02:00;Thread#14;Info;test run finished
+2019-11-28T16:40:36.0640212+02:00;Thread#14;Info;publishing test results
+2019-11-28T16:40:36.1119271+02:00;Thread#14;Info;test results published
+2019-11-28T16:40:36.1119271+02:00;Thread#14;Info;generating reports
+2019-11-28T16:40:36.2136214+02:00;Thread#14;Info;Starting external report generation process
+2019-11-28T16:40:36.6993228+02:00;Thread#14;Error;Could not generate test run result reports. An error occurred in the generator.
+2019-11-28T16:40:36.6993228+02:00;Thread#14;Error;External program returned exit code '-1'
+2019-11-28T16:40:36.6993228+02:00;Thread#14;Info;Failed generating reports
+2019-11-28T16:40:36.7242566+02:00:Total: 1
+2019-11-28T16:40:36.7252532+02:00:Succeeded: 0
+2019-11-28T16:40:36.7262841+02:00:Ignored: 0
+2019-11-28T16:40:36.7262841+02:00:Pending: 1
+2019-11-28T16:40:36.7262841+02:00:Skipped: 0
+2019-11-28T16:40:36.7272844+02:00:Failed: 0
+2019-11-28T16:40:36.7362554+02:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeatherAPITestSpecifications", "OpenWeatherAPITests\OpenWeatherAPITestSpecifications.csproj", "{8598CF75-FB43-4247-B88E-BC11C282FC34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeatherCalls", "OpenWeatherCalls\OpenWeatherCalls.csproj", "{6E0F4D4F-AFD8-476A-BC1E-26E3D0C92B53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8598CF75-FB43-4247-B88E-BC11C282FC34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8598CF75-FB43-4247-B88E-BC11C282FC34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8598CF75-FB43-4247-B88E-BC11C282FC34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8598CF75-FB43-4247-B88E-BC11C282FC34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0F4D4F-AFD8-476A-BC1E-26E3D0C92B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0F4D4F-AFD8-476A-BC1E-26E3D0C92B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0F4D4F-AFD8-476A-BC1E-26E3D0C92B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0F4D4F-AFD8-476A-BC1E-26E3D0C92B53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DAB1266-6193-4B48-8EA4-F47D24B04C09}
+	EndGlobalSection
+EndGlobal

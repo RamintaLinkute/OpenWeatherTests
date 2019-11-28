@@ -1,0 +1,10 @@
+﻿2019-11-28T19:21:36.9025550+02:00;Thread#1;Info;Reading test run result from Json file "C:\Users\raminta.linkute\AppData\Local\Temp\tmpDB87.tmp".
+2019-11-28T19:21:36.9045497+02:00;Thread#1;Info;Successfully read test run result from Json file "C:\Users\raminta.linkute\AppData\Local\Temp\tmpDB87.tmp"
+2019-11-28T19:21:36.9055471+02:00;Thread#1;Info;Deserializing test run result
+2019-11-28T19:21:37.3124585+02:00;Thread#1;Info;Successfully deserialized test run result
+2019-11-28T19:21:37.3124585+02:00;Thread#1;Info;Loading test run result
+2019-11-28T19:21:37.3334028+02:00;Thread#1;Info;Successfully loaded test run result
+2019-11-28T19:21:37.3403837+02:00;Thread#1;Info;creating 1 report(s)
+2019-11-28T19:21:37.3403837+02:00;Thread#1;Info;generate Report ReportTemplate.cshtml
+2019-11-28T19:21:38.1242870+02:00;Thread#1;Info;Finished generating reports.
+========== End of log file ==========

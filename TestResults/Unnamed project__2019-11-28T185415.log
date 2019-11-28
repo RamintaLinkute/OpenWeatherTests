@@ -1,0 +1,42 @@
+﻿2019-11-28T18:54:15.7524530+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-11-28T18:54:15.7524530+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.36 in Framework clr40 in x86 mode execution started
+2019-11-28T18:54:15.7524530+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-11-28T18:54:15.7963355+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T18:54:15.7973325+02:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults" (default)
+2019-11-28T18:54:15.7973325+02:00;VSTestExecutionThread;Info;Profile: 
+2019-11-28T18:54:15.8462015+02:00;VSTestExecutionThread;Info;Log file path: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults\Unnamed project__2019-11-28T185415.log
+2019-11-28T18:54:15.8571719+02:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-11-28T18:54:15.8631558+02:00;Thread#14;Info;Checking license
+2019-11-28T18:54:15.8841008+02:00;Thread#14;Info;Evaluation mode: test execution starts in 14 seconds... (this delay is removed in the registered version)
+2019-11-28T18:54:29.8848968+02:00;Thread#14;Info;Evaluation delay finished.
+2019-11-28T18:54:29.8909172+02:00;Thread#14;Info;License check completed
+2019-11-28T18:54:29.8909172+02:00;Thread#14;Info;starting test run
+2019-11-28T18:54:29.9058425+02:00;Thread#14;Info;Discovering target: Default
+2019-11-28T18:54:29.9068395+02:00;Thread#14;Info;Discovering tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T18:54:30.2722903+02:00;Thread#14;Info;Discovered tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T18:54:30.2732876+02:00:Test Suite Dump
+2019-11-28T18:54:30.2742847+02:00:#0: Unnamed project/ - 
+2019-11-28T18:54:30.2742847+02:00:#1: Default - 
+2019-11-28T18:54:30.2742847+02:00:#2: OpenWeatherAPITests - 
+2019-11-28T18:54:30.2742847+02:00:#9: CallCurrentWeatherDataForSeveralCities - 
+2019-11-28T18:54:30.3122160+02:00:#10: Call for several city IDs - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForSeveralCities/Scenario:Call+for+several+city+IDs
+2019-11-28T18:54:30.3122160+02:00:End: Test Suite Dump
+2019-11-28T18:54:30.3331267+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T18:54:30.3351229+02:00:Thread#:Scheduler: testitem #10 from normal test queue 
+2019-11-28T18:54:30.3351229+02:00:Thread#0:Scheduler: considering testitem #10 for thread 0
+2019-11-28T18:54:30.3391576+02:00:Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T18:54:30.3391576+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+2019-11-28T18:54:30.3391576+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+2019-11-28T18:54:30.3391576+02:00:Thread#0:Scheduler: using testitem #10 for thread 0
+2019-11-28T18:54:30.3401083+02:00:Thread#0:Scheduler: Test #10 is scheduled for thread
+2019-11-28T18:54:30.3411057+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T18:54:30.3431402+02:00:Thread #0: creating new test thread executor for OpenWeatherAPITests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-11-28T18:54:30.3440986+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T18:54:30.3531155+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T18:54:30.3551095+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-11-28T18:54:30.6814871+02:00:Thread#0:T:-> Loading plugin C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-11-28T18:54:30.6914944+02:00:Thread#0:T:-> Using default config
+2019-11-28T18:54:31.2451535+02:00:Thread#0: Test #10/0 is started on thread #0
+2019-11-28T18:54:31.2640706+02:00:Thread#0:B:Given IDs '524901 703448 2643743' exists in the system
+2019-11-28T18:54:37.7549317+02:00:Thread#0:T:done: CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem("524901 703448 264...") (6.4s)
+2019-11-28T18:54:40.0457523+02:00:Thread#0:B:When I request to get the weather data by ids

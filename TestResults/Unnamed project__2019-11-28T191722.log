@@ -1,0 +1,190 @@
+﻿2019-11-28T19:17:22.0432353+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-11-28T19:17:22.0432353+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.36 in Framework clr40 in x86 mode execution started
+2019-11-28T19:17:22.0432353+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-11-28T19:17:22.0860854+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T19:17:22.0860854+02:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults" (default)
+2019-11-28T19:17:22.0860854+02:00;VSTestExecutionThread;Info;Profile: 
+2019-11-28T19:17:22.1100210+02:00;VSTestExecutionThread;Info;Log file path: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults\Unnamed project__2019-11-28T191722.log
+2019-11-28T19:17:22.1170023+02:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-11-28T19:17:22.1279734+02:00;Thread#15;Info;Checking license
+2019-11-28T19:17:22.1409718+02:00;Thread#15;Info;Evaluation mode: test execution starts in 11 seconds... (this delay is removed in the registered version)
+2019-11-28T19:17:33.1417168+02:00;Thread#15;Info;Evaluation delay finished.
+2019-11-28T19:17:33.1556422+02:00;Thread#15;Info;License check completed
+2019-11-28T19:17:33.1556422+02:00;Thread#15;Info;starting test run
+2019-11-28T19:17:33.1726297+02:00;Thread#15;Info;Discovering target: Default
+2019-11-28T19:17:33.1726297+02:00;Thread#15;Info;Discovering tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T19:17:33.2374819+02:00;Thread#15;Info;Discovered tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T19:17:33.2374819+02:00:Test Suite Dump
+2019-11-28T19:17:33.2395088+02:00:#0: Unnamed project/ - 
+2019-11-28T19:17:33.2395088+02:00:#1: Default - 
+2019-11-28T19:17:33.2395088+02:00:#2: OpenWeatherAPITests - 
+2019-11-28T19:17:33.2395088+02:00:#3: CallCurrentWeatherDataForOneLocation - 
+2019-11-28T19:17:33.2395088+02:00:#9: CallCurrentWeatherDataForSeveralCities - 
+2019-11-28T19:17:33.2504486+02:00:#4: Call current weather data for one location by city name - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForOneLocation/Scenario:Call+current+weather+data+for+one+location+by+city+name
+2019-11-28T19:17:33.2504486+02:00:#5: Call current weather data for one location by non-existing city name - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForOneLocation/Scenario:Call+current+weather+data+for+one+location+by+non-existing+city+name
+2019-11-28T19:17:33.2504486+02:00:#6: Call current weather data for one location by city name and country code - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForOneLocation/Scenario:Call+current+weather+data+for+one+location+by+city+name+and+country+code
+2019-11-28T19:17:33.2504486+02:00:#7: Call current weather data for one location by city name and non-existing country code - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForOneLocation/Scenario:Call+current+weather+data+for+one+location+by+city+name+and+non-existing+country+code
+2019-11-28T19:17:33.2504486+02:00:#8: Call current weather data for one location by city ID - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForOneLocation/Scenario:Call+current+weather+data+for+one+location+by+city+ID
+2019-11-28T19:17:33.2504486+02:00:#10: Call for several city IDs - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForSeveralCities/Scenario:Call+for+several+city+IDs
+2019-11-28T19:17:33.2504486+02:00:#11: Call for more than 20 city IDs - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForSeveralCities/Scenario:Call+for+more+than+20+city+IDs
+2019-11-28T19:17:33.2504486+02:00:End: Test Suite Dump
+2019-11-28T19:17:33.2694371+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T19:17:33.2704323+02:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-11-28T19:17:33.2704323+02:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-11-28T19:17:33.2753816+02:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T19:17:33.2753816+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-11-28T19:17:33.2753816+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-11-28T19:17:33.2753816+02:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-11-28T19:17:33.2753816+02:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-11-28T19:17:33.2763779+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T19:17:33.2793707+02:00:Thread #0: creating new test thread executor for OpenWeatherAPITests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-11-28T19:17:33.2813655+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T19:17:33.2833599+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T19:17:33.2843573+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-11-28T19:17:33.5586589+02:00:Thread#0:T:-> Loading plugin C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-11-28T19:17:33.5636108+02:00:Thread#0:T:-> Using default config
+2019-11-28T19:17:34.0165635+02:00:Thread#0: Test #4/0 is started on thread #0
+2019-11-28T19:17:34.0355130+02:00:Thread#0:B:Given City 'London' exists in the system
+2019-11-28T19:17:34.1681581+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.GivenCityExistsInTheSystem("London") (0.1s)
+2019-11-28T19:17:34.1691551+02:00:Thread#0:B:When I request to get the weather data by city
+2019-11-28T19:17:34.4402422+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.WhenIRequestToGetTheWeatherDataByCity() (0.3s)
+2019-11-28T19:17:34.4412396+02:00:Thread#0:B:Then City 'London' is returned in the response
+2019-11-28T19:17:34.4940981+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.ThenCityIsReturnedInTheResponse("London") (0.1s)
+2019-11-28T19:17:34.4950937+02:00:Thread#0:B:And status code 'OK' is returned in the response
+2019-11-28T19:17:34.4950937+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.ThenStatusCodeIsReturnedInTheResponse("OK") (0.0s)
+2019-11-28T19:17:34.5041105+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T19:17:34.5041105+02:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-11-28T19:17:34.5041105+02:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-11-28T19:17:34.5041105+02:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T19:17:34.5041105+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-11-28T19:17:34.5041105+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-11-28T19:17:34.5041105+02:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-11-28T19:17:34.5041105+02:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-11-28T19:17:34.5041105+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T19:17:34.5156677+02:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0.4981068 seconds
+2019-11-28T19:17:34.5166680+02:00:Thread#0: Test #5/0 is started on thread #0
+2019-11-28T19:17:34.5176486+02:00:Thread#0:B:Given City 'NonExistingCityName' does not exist in the system
+2019-11-28T19:17:34.5176486+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.GivenCityDoesNotExistInTheSystem("NonExistingCityName") (0.0s)
+2019-11-28T19:17:34.5176486+02:00:Thread#0:B:When I request to get the weather data by city
+2019-11-28T19:17:34.6819666+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.WhenIRequestToGetTheWeatherDataByCity() (0.2s)
+2019-11-28T19:17:34.6819666+02:00:Thread#0:B:Then status code 'NotFound' is returned in the response
+2019-11-28T19:17:34.6829567+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.ThenStatusCodeIsReturnedInTheResponse("NotFound") (0.0s)
+2019-11-28T19:17:34.6829567+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T19:17:34.6829567+02:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2019-11-28T19:17:34.6829567+02:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-11-28T19:17:34.6829567+02:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T19:17:34.6829567+02:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-11-28T19:17:34.6829567+02:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-11-28T19:17:34.6829567+02:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-11-28T19:17:34.6829567+02:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-11-28T19:17:34.6829567+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T19:17:34.6849569+02:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0.1682889 seconds
+2019-11-28T19:17:34.6859120+02:00:Thread#0: Test #6/0 is started on thread #0
+2019-11-28T19:17:34.6879068+02:00:Thread#0:B:Given City 'London' exists in the system
+2019-11-28T19:17:34.6889030+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.GivenCityExistsInTheSystem("London") (0.0s)
+2019-11-28T19:17:34.6889030+02:00:Thread#0:B:And country code 'uk' exists in the system
+2019-11-28T19:17:34.6909412+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.GivenCountryCodeExistsInTheSystem("uk") (0.0s)
+2019-11-28T19:17:34.6909412+02:00:Thread#0:B:When I request to get the weather data by city and country code
+2019-11-28T19:17:34.8018329+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.WhenIRequestToGetTheWeatherDataByCityAndCountryCode() (0.1s)
+2019-11-28T19:17:34.8028354+02:00:Thread#0:B:Then City 'London' is returned in the response
+2019-11-28T19:17:34.8028354+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.ThenCityIsReturnedInTheResponse("London") (0.0s)
+2019-11-28T19:17:34.8028354+02:00:Thread#0:B:And status code 'OK' is returned in the response
+2019-11-28T19:17:34.8028354+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.ThenStatusCodeIsReturnedInTheResponse("OK") (0.0s)
+2019-11-28T19:17:34.8028354+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T19:17:34.8028354+02:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2019-11-28T19:17:34.8028354+02:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2019-11-28T19:17:34.8038317+02:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T19:17:34.8038317+02:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2019-11-28T19:17:34.8038317+02:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2019-11-28T19:17:34.8038317+02:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2019-11-28T19:17:34.8038317+02:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2019-11-28T19:17:34.8038317+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T19:17:34.8038317+02:00:Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.1179197 seconds
+2019-11-28T19:17:34.8038317+02:00:Thread#0: Test #7/0 is started on thread #0
+2019-11-28T19:17:34.8058261+02:00:Thread#0:B:Given City 'London' exists in the system
+2019-11-28T19:17:34.8058261+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.GivenCityExistsInTheSystem("London") (0.0s)
+2019-11-28T19:17:34.8058261+02:00:Thread#0:B:And country code 'cccccc' does not exist in the system
+2019-11-28T19:17:34.8068234+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.GivenCountryCodeDoesNotExistInTheSystem("cccccc") (0.0s)
+2019-11-28T19:17:34.8068234+02:00:Thread#0:B:When I request to get the weather data by city and country code
+2019-11-28T19:17:34.9314399+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.WhenIRequestToGetTheWeatherDataByCityAndCountryCode() (0.1s)
+2019-11-28T19:17:34.9314399+02:00:Thread#0:B:Then status code 'OK' is returned in the response
+2019-11-28T19:17:34.9324282+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.ThenStatusCodeIsReturnedInTheResponse("OK") (0.0s)
+2019-11-28T19:17:34.9324282+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T19:17:34.9324282+02:00:Thread#:Scheduler: testitem #8 from normal test queue 
+2019-11-28T19:17:34.9334234+02:00:Thread#0:Scheduler: considering testitem #8 for thread 0
+2019-11-28T19:17:34.9334234+02:00:Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T19:17:34.9334234+02:00:Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+2019-11-28T19:17:34.9334234+02:00:Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+2019-11-28T19:17:34.9334234+02:00:Thread#0:Scheduler: using testitem #8 for thread 0
+2019-11-28T19:17:34.9334234+02:00:Thread#0:Scheduler: Test #8 is scheduled for thread
+2019-11-28T19:17:34.9334234+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T19:17:34.9344219+02:00:Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0.1305902 seconds
+2019-11-28T19:17:34.9364170+02:00:Thread#0: Test #8/0 is started on thread #0
+2019-11-28T19:17:34.9384114+02:00:Thread#0:B:Given ID '2172797' exists in the system
+2019-11-28T19:17:34.9433961+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.GivenIDExistsInTheSystem(2172797) (0.0s)
+2019-11-28T19:17:34.9443931+02:00:Thread#0:B:When I request to get the weather data by id
+2019-11-28T19:17:34.9992464+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.WhenIRequestToGetTheWeatherDataById() (0.1s)
+2019-11-28T19:17:34.9992464+02:00:Thread#0:B:Then City 'Cairns' is returned in the response
+2019-11-28T19:17:34.9992464+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.ThenCityIsReturnedInTheResponse("Cairns") (0.0s)
+2019-11-28T19:17:34.9992464+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T19:17:34.9992464+02:00:Thread#:Scheduler: testitem #10 from normal test queue 
+2019-11-28T19:17:34.9992464+02:00:Thread#0:Scheduler: considering testitem #10 for thread 0
+2019-11-28T19:17:34.9992464+02:00:Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T19:17:34.9992464+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+2019-11-28T19:17:34.9992464+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+2019-11-28T19:17:34.9992464+02:00:Thread#0:Scheduler: using testitem #10 for thread 0
+2019-11-28T19:17:34.9992464+02:00:Thread#0:Scheduler: Test #10 is scheduled for thread
+2019-11-28T19:17:34.9992464+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T19:17:35.0002445+02:00:Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 0.0638275 seconds
+2019-11-28T19:17:35.0002445+02:00:Thread#0: Test #10/0 is started on thread #0
+2019-11-28T19:17:35.0022389+02:00:Thread#0:B:Given IDs '524901 703448 2643743' exists in the system
+2019-11-28T19:17:35.0022389+02:00:Thread#0:T:done: CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem("524901 703448 264...") (0.0s)
+2019-11-28T19:17:35.0032362+02:00:Thread#0:B:When I request to get the weather data by ids
+2019-11-28T19:17:35.0959093+02:00:Thread#0:T:done: CallCurrentWeatherDataForSeveralCitiesSteps.WhenIRequestToGetTheWeatherDataByIds() (0.1s)
+2019-11-28T19:17:35.0959093+02:00:Thread#0:B:Then Count '3' is returned in the response
+2019-11-28T19:17:35.0969077+02:00:Thread#0:T:done: CallCurrentWeatherDataForSeveralCitiesSteps.ThenCountIsReturnedInTheResponse(3) (0.0s)
+2019-11-28T19:17:35.0969077+02:00:Thread#0:B:And the status code 'OK' is returned in the response
+2019-11-28T19:17:35.0979040+02:00:Thread#0:T:done: CallCurrentWeatherDataForSeveralCitiesSteps.ThenTheStatusCodeIsReturnedInTheResponse("OK") (0.0s)
+2019-11-28T19:17:35.0979040+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T19:17:35.0979040+02:00:Thread#:Scheduler: testitem #11 from normal test queue 
+2019-11-28T19:17:35.0979040+02:00:Thread#0:Scheduler: considering testitem #11 for thread 0
+2019-11-28T19:17:35.0979040+02:00:Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T19:17:35.0979040+02:00:Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+2019-11-28T19:17:35.0979040+02:00:Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+2019-11-28T19:17:35.0979040+02:00:Thread#0:Scheduler: using testitem #11 for thread 0
+2019-11-28T19:17:35.0979040+02:00:Thread#0:Scheduler: Test #11 is scheduled for thread
+2019-11-28T19:17:35.0979040+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T19:17:35.0989361+02:00:Thread#0: Test #10/0 is finished on thread #0 as Succeeded within 0.0986916 seconds
+2019-11-28T19:17:35.0989361+02:00:Thread#0: Test #11/0 is started on thread #0
+2019-11-28T19:17:35.0998988+02:00:Thread#0:B:Given IDs '524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743,524901,703448,2643743' exists in the system
+2019-11-28T19:17:35.0998988+02:00:Thread#0:T:done: CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem("524901,703448,264...") (0.0s)
+2019-11-28T19:17:35.0998988+02:00:Thread#0:B:When I request to get the weather data by ids
+2019-11-28T19:17:35.1965599+02:00:Thread#0:T:done: CallCurrentWeatherDataForSeveralCitiesSteps.WhenIRequestToGetTheWeatherDataByIds() (0.1s)
+2019-11-28T19:17:35.1965599+02:00:Thread#0:B:Then Message 'id list must be in range from 1 to 20' is returned in the response
+2019-11-28T19:17:35.1985550+02:00:Thread#0:T:done: CallCurrentWeatherDataForSeveralCitiesSteps.ThenMessageIsReturnedInTheResponse("id list must be i...") (0.0s)
+2019-11-28T19:17:35.1995528+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T19:17:35.1995528+02:00:Thread#:Scheduler: at the end of normal test queue
+2019-11-28T19:17:35.1995528+02:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-11-28T19:17:35.1995528+02:00:Thread#0:Scheduler: No more tests for thread
+2019-11-28T19:17:35.2334618+02:00:Thread#0: Test #11/0 is finished on thread #0 as Succeeded within 0.1345257 seconds
+2019-11-28T19:17:35.2544042+02:00:Trying to cancel thread
+2019-11-28T19:17:35.2544042+02:00:Thread cancelled
+2019-11-28T19:17:35.2633821+02:00:Thread#-1:Scheduler: get next test for thread -1
+2019-11-28T19:17:35.2633821+02:00:Thread#:Scheduler: at the end of normal test queue
+2019-11-28T19:17:35.2633821+02:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-11-28T19:17:35.2663724+02:00;Thread#15;Info;test run finished
+2019-11-28T19:17:35.2663724+02:00;Thread#15;Info;publishing test results
+2019-11-28T19:17:35.3032739+02:00;Thread#15;Info;test results published
+2019-11-28T19:17:35.3032739+02:00;Thread#15;Info;generating reports
+2019-11-28T19:17:35.3951133+02:00;Thread#15;Info;Starting external report generation process
+2019-11-28T19:17:36.7349765+02:00;Thread#15;Info;Successfully generated reports.
+2019-11-28T19:17:36.7369698+02:00;Thread#15;Info;Successfully generated reports
+2019-11-28T19:17:36.7429537+02:00:Total: 7
+2019-11-28T19:17:36.7449488+02:00:Succeeded: 7
+2019-11-28T19:17:36.7459462+02:00:Ignored: 0
+2019-11-28T19:17:36.7459462+02:00:Pending: 0
+2019-11-28T19:17:36.7459462+02:00:Skipped: 0
+2019-11-28T19:17:36.7469435+02:00:Failed: 0
+2019-11-28T19:17:36.7559189+02:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-11-28T19:17:36.7559189+02:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults\Unnamed project__2019-11-28T191722.html'
+========== End of log file ==========

@@ -1,0 +1,75 @@
+﻿2019-11-28T16:46:19.1925004+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-11-28T16:46:19.1925004+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.36 in Framework clr40 in x86 mode execution started
+2019-11-28T16:46:19.1925004+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-11-28T16:46:19.2354194+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T16:46:19.2354194+02:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults" (default)
+2019-11-28T16:46:19.2354194+02:00;VSTestExecutionThread;Info;Profile: 
+2019-11-28T16:46:19.2553658+02:00;VSTestExecutionThread;Info;Log file path: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults\Unnamed project__2019-11-28T164619.log
+2019-11-28T16:46:19.2663363+02:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-11-28T16:46:19.2713228+02:00;Thread#13;Info;Checking license
+2019-11-28T16:46:19.2830131+02:00;Thread#13;Info;Evaluation mode: test execution starts in 5 seconds... (this delay is removed in the registered version)
+2019-11-28T16:46:24.2845713+02:00;Thread#13;Info;Evaluation delay finished.
+2019-11-28T16:46:24.3045247+02:00;Thread#13;Info;License check completed
+2019-11-28T16:46:24.3055221+02:00;Thread#13;Info;starting test run
+2019-11-28T16:46:24.3244701+02:00;Thread#13;Info;Discovering target: Default
+2019-11-28T16:46:24.3244701+02:00;Thread#13;Info;Discovering tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T16:46:24.6027587+02:00;Thread#13;Info;Discovered tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T16:46:24.6037229+02:00:Test Suite Dump
+2019-11-28T16:46:24.6047203+02:00:#0: Unnamed project/ - 
+2019-11-28T16:46:24.6047203+02:00:#1: Default - 
+2019-11-28T16:46:24.6047203+02:00:#2: OpenWeatherAPITests - 
+2019-11-28T16:46:24.6047203+02:00:#3: CallCurrentWeatherDataForOneLocation - 
+2019-11-28T16:46:24.6336756+02:00:#6: Call current weather data for one location by city name and country code - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForOneLocation/Scenario:Call+current+weather+data+for+one+location+by+city+name+and+country+code
+2019-11-28T16:46:24.6336756+02:00:End: Test Suite Dump
+2019-11-28T16:46:24.6576113+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T16:46:24.6586090+02:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2019-11-28T16:46:24.6586090+02:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-11-28T16:46:24.6635627+02:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T16:46:24.6635627+02:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-11-28T16:46:24.6635627+02:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-11-28T16:46:24.6635627+02:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-11-28T16:46:24.6645597+02:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-11-28T16:46:24.6655571+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T16:46:24.6675519+02:00:Thread #0: creating new test thread executor for OpenWeatherAPITests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-11-28T16:46:24.6685492+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T16:46:24.6705513+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T16:46:24.6715410+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-11-28T16:46:24.9358342+02:00:Thread#0:T:-> Loading plugin C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-11-28T16:46:24.9408569+02:00:Thread#0:T:-> Using default config
+2019-11-28T16:46:25.4704050+02:00:Thread#0: Test #6/0 is started on thread #0
+2019-11-28T16:46:25.4903854+02:00:Thread#0:B:Given City 'London' exists in the system
+2019-11-28T16:46:25.6249921+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.GivenCityExistsInTheSystem("London") (0.1s)
+2019-11-28T16:46:25.6259942+02:00:Thread#0:B:And country code 'uk' exists in the system
+2019-11-28T16:46:25.6269868+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.GivenCountryCodeExistsInTheSystem("uk") (0.0s)
+2019-11-28T16:46:25.6269868+02:00:Thread#0:B:When I request to get the weather data by city and country code
+2019-11-28T16:46:25.8386659+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.WhenIRequestToGetTheWeatherDataByCityAndCountryCode() (0.2s)
+2019-11-28T16:46:25.8386659+02:00:Thread#0:B:Then City 'London' is returned in the response
+2019-11-28T16:46:25.8795938+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.ThenCityIsReturnedInTheResponse("London") (0.0s)
+2019-11-28T16:46:25.8805543+02:00:Thread#0:B:And status code 'OK' is returned in the response
+2019-11-28T16:46:25.8815517+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.ThenStatusCodeIsReturnedInTheResponse("OK") (0.0s)
+2019-11-28T16:46:25.8905270+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T16:46:25.8915244+02:00:Thread#:Scheduler: at the end of normal test queue
+2019-11-28T16:46:25.8915244+02:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-11-28T16:46:25.8915244+02:00:Thread#0:Scheduler: No more tests for thread
+2019-11-28T16:46:25.9095097+02:00:Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.4391047 seconds
+2019-11-28T16:46:25.9214778+02:00:Trying to cancel thread
+2019-11-28T16:46:25.9214778+02:00:Thread cancelled
+2019-11-28T16:46:25.9264706+02:00:Thread#-1:Scheduler: get next test for thread -1
+2019-11-28T16:46:25.9264706+02:00:Thread#:Scheduler: at the end of normal test queue
+2019-11-28T16:46:25.9264706+02:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-11-28T16:46:25.9284259+02:00;Thread#13;Info;test run finished
+2019-11-28T16:46:25.9294233+02:00;Thread#13;Info;publishing test results
+2019-11-28T16:46:25.9463784+02:00;Thread#13;Info;test results published
+2019-11-28T16:46:25.9473758+02:00;Thread#13;Info;generating reports
+2019-11-28T16:46:26.0491036+02:00;Thread#13;Info;Starting external report generation process
+2019-11-28T16:46:26.5184633+02:00;Thread#13;Error;Could not generate test run result reports. An error occurred in the generator.
+2019-11-28T16:46:26.5194603+02:00;Thread#13;Error;External program returned exit code '-1'
+2019-11-28T16:46:26.5194603+02:00;Thread#13;Info;Failed generating reports
+2019-11-28T16:46:26.5264773+02:00:Total: 1
+2019-11-28T16:46:26.5274401+02:00:Succeeded: 1
+2019-11-28T16:46:26.5284360+02:00:Ignored: 0
+2019-11-28T16:46:26.5284360+02:00:Pending: 0
+2019-11-28T16:46:26.5284360+02:00:Skipped: 0
+2019-11-28T16:46:26.5294334+02:00:Failed: 0
+2019-11-28T16:46:26.5374131+02:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

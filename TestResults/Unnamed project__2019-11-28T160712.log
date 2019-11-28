@@ -1,0 +1,106 @@
+﻿2019-11-28T16:07:12.5573217+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-11-28T16:07:12.5573217+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.36 in Framework clr40 in x86 mode execution started
+2019-11-28T16:07:12.5573217+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-11-28T16:07:12.6011695+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T16:07:12.6011695+02:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults" (default)
+2019-11-28T16:07:12.6011695+02:00;VSTestExecutionThread;Info;Profile: 
+2019-11-28T16:07:12.6230841+02:00;VSTestExecutionThread;Info;Log file path: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults\Unnamed project__2019-11-28T160712.log
+2019-11-28T16:07:12.6340553+02:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-11-28T16:07:12.6390414+02:00;Thread#13;Info;Checking license
+2019-11-28T16:07:12.6540557+02:00;Thread#13;Info;Evaluation mode: test execution starts in 8 seconds... (this delay is removed in the registered version)
+2019-11-28T16:07:20.6558120+02:00;Thread#13;Info;Evaluation delay finished.
+2019-11-28T16:07:20.6668214+02:00;Thread#13;Info;License check completed
+2019-11-28T16:07:20.6668214+02:00;Thread#13;Info;starting test run
+2019-11-28T16:07:20.6817485+02:00;Thread#13;Info;Discovering target: Default
+2019-11-28T16:07:20.6827445+02:00;Thread#13;Info;Discovering tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T16:07:20.9540529+02:00;Thread#13;Info;Discovered tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T16:07:20.9550149+02:00:Test Suite Dump
+2019-11-28T16:07:20.9560477+02:00:#0: Unnamed project/ - 
+2019-11-28T16:07:20.9560477+02:00:#1: Default - 
+2019-11-28T16:07:20.9560477+02:00:#2: OpenWeatherAPITests - 
+2019-11-28T16:07:20.9560477+02:00:#3: CallCurrentWeatherDataForOneLocation - 
+2019-11-28T16:07:20.9859318+02:00:#5: Call current weather data for one location by non-existing city name - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForOneLocation/Scenario:Call+current+weather+data+for+one+location+by+non-existing+city+name
+2019-11-28T16:07:20.9859318+02:00:End: Test Suite Dump
+2019-11-28T16:07:21.0038839+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T16:07:21.0058786+02:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-11-28T16:07:21.0058786+02:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-11-28T16:07:21.0088704+02:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T16:07:21.0088704+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-11-28T16:07:21.0088704+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-11-28T16:07:21.0088704+02:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-11-28T16:07:21.0098678+02:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-11-28T16:07:21.0098678+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T16:07:21.0138621+02:00:Thread #0: creating new test thread executor for OpenWeatherAPITests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-11-28T16:07:21.0158524+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T16:07:21.0188807+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T16:07:21.0198773+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-11-28T16:07:21.3046742+02:00:Thread#0:T:-> Loading plugin C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-11-28T16:07:21.3106458+02:00:Thread#0:T:-> Using default config
+2019-11-28T16:07:21.8283023+02:00:Thread#0: Test #5/0 is started on thread #0
+2019-11-28T16:07:21.8502574+02:00:Thread#0:B:Given City 'NonExistingCityName' does not exist in the system
+2019-11-28T16:07:21.9818916+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.GivenCityDoesNotExistInTheSystem("NonExistingCityName") (0.0s)
+2019-11-28T16:07:21.9828890+02:00:Thread#0:B:When I request to get the weather data by city
+2019-11-28T16:07:22.3689627+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.WhenIRequestToGetTheWeatherDataByCity() (0.4s)
+2019-11-28T16:07:22.3699597+02:00:Thread#0:B:Then the response status code is 'Not Found'
+2019-11-28T16:07:22.3839222+02:00:Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the response status code is 'Not Found'': OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForOneLocationSteps.ThenTheResponseStatusCodeIs(String), OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForOneLocationStepsFirst.ThenTheResponseStatusCodeIs(String)
+2019-11-28T16:07:22.4716853+02:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2019-11-28T16:07:22.4726827+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T16:07:22.4726827+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-11-28T16:07:22.4726827+02:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-11-28T16:07:22.4726827+02:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T16:07:22.4726827+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-11-28T16:07:22.4726827+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-11-28T16:07:22.4726827+02:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-11-28T16:07:22.4726827+02:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-11-28T16:07:22.4726827+02:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-11-28T16:07:22.4816912+02:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 0.6533889 seconds
+2019-11-28T16:07:22.4826561+02:00:Thread#0: Test #5/1 is started on thread #0
+2019-11-28T16:07:22.4836648+02:00:Thread#0:B:Given City 'NonExistingCityName' does not exist in the system
+2019-11-28T16:07:22.4836648+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.GivenCityDoesNotExistInTheSystem("NonExistingCityName") (0.0s)
+2019-11-28T16:07:22.4836648+02:00:Thread#0:B:When I request to get the weather data by city
+2019-11-28T16:07:22.6094457+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.WhenIRequestToGetTheWeatherDataByCity() (0.1s)
+2019-11-28T16:07:22.6104442+02:00:Thread#0:B:Then the response status code is 'Not Found'
+2019-11-28T16:07:22.6104442+02:00:Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the response status code is 'Not Found'': OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForOneLocationSteps.ThenTheResponseStatusCodeIs(String), OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForOneLocationStepsFirst.ThenTheResponseStatusCodeIs(String)
+2019-11-28T16:07:22.6144326+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T16:07:22.6144326+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-11-28T16:07:22.6144326+02:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-11-28T16:07:22.6144326+02:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T16:07:22.6144326+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-11-28T16:07:22.6144326+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-11-28T16:07:22.6144326+02:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-11-28T16:07:22.6144326+02:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-11-28T16:07:22.6144326+02:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-11-28T16:07:22.6164343+02:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 0.1337782 seconds
+2019-11-28T16:07:22.6174258+02:00:Thread#0: Test #5/2 is started on thread #0
+2019-11-28T16:07:22.6174258+02:00:Thread#0:B:Given City 'NonExistingCityName' does not exist in the system
+2019-11-28T16:07:22.6184225+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.GivenCityDoesNotExistInTheSystem("NonExistingCityName") (0.0s)
+2019-11-28T16:07:22.6184225+02:00:Thread#0:B:When I request to get the weather data by city
+2019-11-28T16:07:22.7298116+02:00:Thread#0:T:done: CallCurrentWeatherDataForOneLocationSteps.WhenIRequestToGetTheWeatherDataByCity() (0.1s)
+2019-11-28T16:07:22.7298116+02:00:Thread#0:B:Then the response status code is 'Not Found'
+2019-11-28T16:07:22.7298116+02:00:Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the response status code is 'Not Found'': OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForOneLocationSteps.ThenTheResponseStatusCodeIs(String), OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForOneLocationStepsFirst.ThenTheResponseStatusCodeIs(String)
+2019-11-28T16:07:22.7318049+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T16:07:22.7318049+02:00:Thread#:Scheduler: at the end of normal test queue
+2019-11-28T16:07:22.7318049+02:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-11-28T16:07:22.7318049+02:00:Thread#0:Scheduler: No more tests for thread
+2019-11-28T16:07:22.7557409+02:00:Thread#0: Test #5/2 is finished on thread #0 as Failed within 0.1383151 seconds
+2019-11-28T16:07:22.7746893+02:00:Trying to cancel thread
+2019-11-28T16:07:22.7746893+02:00:Thread cancelled
+2019-11-28T16:07:22.7807071+02:00:Thread#-1:Scheduler: get next test for thread -1
+2019-11-28T16:07:22.7807071+02:00:Thread#:Scheduler: at the end of normal test queue
+2019-11-28T16:07:22.7807071+02:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-11-28T16:07:22.7856597+02:00;Thread#13;Info;test run finished
+2019-11-28T16:07:22.7856597+02:00;Thread#13;Info;publishing test results
+2019-11-28T16:07:22.8046102+02:00;Thread#13;Info;test results published
+2019-11-28T16:07:22.8056397+02:00;Thread#13;Info;generating reports
+2019-11-28T16:07:22.8983594+02:00;Thread#13;Info;Starting external report generation process
+2019-11-28T16:07:23.3316290+02:00;Thread#13;Error;Could not generate test run result reports. An error occurred in the generator.
+2019-11-28T16:07:23.3316290+02:00;Thread#13;Error;External program returned exit code '-1'
+2019-11-28T16:07:23.3316290+02:00;Thread#13;Info;Failed generating reports
+2019-11-28T16:07:23.3386099+02:00:Total: 1 (test executions: 3)
+2019-11-28T16:07:23.3396069+02:00:Succeeded: 0
+2019-11-28T16:07:23.3406047+02:00:Ignored: 0
+2019-11-28T16:07:23.3406047+02:00:Pending: 0
+2019-11-28T16:07:23.3406047+02:00:Skipped: 0
+2019-11-28T16:07:23.3406047+02:00:Failed: 1
+2019-11-28T16:07:23.3485830+02:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

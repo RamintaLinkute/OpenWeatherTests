@@ -1,0 +1,78 @@
+﻿2019-11-28T18:32:43.9332947+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-11-28T18:32:43.9332947+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.36 in Framework clr40 in x86 mode execution started
+2019-11-28T18:32:43.9332947+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-11-28T18:32:43.9642112+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T18:32:43.9652086+02:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults" (default)
+2019-11-28T18:32:43.9652086+02:00;VSTestExecutionThread;Info;Profile: 
+2019-11-28T18:32:43.9901423+02:00;VSTestExecutionThread;Info;Log file path: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults\Unnamed project__2019-11-28T183243.log
+2019-11-28T18:32:44.0011127+02:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-11-28T18:32:44.0100888+02:00;Thread#13;Info;Checking license
+2019-11-28T18:32:44.0280409+02:00;Thread#13;Info;Evaluation mode: test execution starts in 11 seconds... (this delay is removed in the registered version)
+2019-11-28T18:32:55.0290988+02:00;Thread#13;Info;Evaluation delay finished.
+2019-11-28T18:32:55.0361158+02:00;Thread#13;Info;License check completed
+2019-11-28T18:32:55.0361158+02:00;Thread#13;Info;starting test run
+2019-11-28T18:32:55.0585202+02:00;Thread#13;Info;Discovering target: Default
+2019-11-28T18:32:55.0585202+02:00;Thread#13;Info;Discovering tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T18:32:55.4922029+02:00;Thread#13;Info;Discovered tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T18:32:55.4931678+02:00:Test Suite Dump
+2019-11-28T18:32:55.4941648+02:00:#0: Unnamed project/ - 
+2019-11-28T18:32:55.4941648+02:00:#1: Default - 
+2019-11-28T18:32:55.4941648+02:00:#2: OpenWeatherAPITests - 
+2019-11-28T18:32:55.4941648+02:00:#9: CallCurrentWeatherDataForSeveralCities - 
+2019-11-28T18:32:55.5320648+02:00:#10: Call for several city IDs - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForSeveralCities/Scenario:Call+for+several+city+IDs
+2019-11-28T18:32:55.5320648+02:00:End: Test Suite Dump
+2019-11-28T18:32:55.5560001+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T18:32:55.5579945+02:00:Thread#:Scheduler: testitem #10 from normal test queue 
+2019-11-28T18:32:55.5579945+02:00:Thread#0:Scheduler: considering testitem #10 for thread 0
+2019-11-28T18:32:55.5619844+02:00:Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T18:32:55.5619844+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+2019-11-28T18:32:55.5619844+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+2019-11-28T18:32:55.5619844+02:00:Thread#0:Scheduler: using testitem #10 for thread 0
+2019-11-28T18:32:55.5629814+02:00:Thread#0:Scheduler: Test #10 is scheduled for thread
+2019-11-28T18:32:55.5649758+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T18:32:55.5670034+02:00:Thread #0: creating new test thread executor for OpenWeatherAPITests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-11-28T18:32:55.5699638+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T18:32:55.5829818+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T18:32:55.5840168+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-11-28T18:32:55.9650346+02:00:Thread#0:T:-> Loading plugin C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-11-28T18:32:55.9770320+02:00:Thread#0:T:-> Using default config
+2019-11-28T18:32:56.5913157+02:00:Thread#0: Test #10/0 is started on thread #0
+2019-11-28T18:33:01.4208683+02:00:Thread#0:B:Given IDs '524901,703448,2643743' exists in the system
+2019-11-28T18:33:01.4782721+02:00:Thread#0:T:binding error: Ambiguous step definitions found for step 'Given IDs '524901,703448,2643743' exists in the system': OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem(Decimal), OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem(String)
+2019-11-28T18:33:07.7888126+02:00:Thread#0:B:When I request to get the weather data by ids
+2019-11-28T18:33:07.7937984+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T18:33:12.5588402+02:00:Thread#0:B:Then Count '3' is returned in the response
+2019-11-28T18:33:12.5728024+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T18:33:13.5732188+02:00:Thread#0:B:And status code 'OK' is returned in the response
+2019-11-28T18:33:13.5752125+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T18:33:18.2054499+02:00:Thread#0:TestItem#10:Scheduler: reschedule tests for testitem #10
+2019-11-28T18:33:18.2064476+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T18:33:18.2064476+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #10
+2019-11-28T18:33:18.2064476+02:00:Thread#0:Scheduler: considering testitem #10 for thread 0
+2019-11-28T18:33:18.2064476+02:00:Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T18:33:18.2064476+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+2019-11-28T18:33:18.2064476+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+2019-11-28T18:33:18.2064476+02:00:Thread#0:Scheduler: using testitem #10 for thread 0
+2019-11-28T18:33:18.2064476+02:00:Thread#0:Scheduler: Test #10 is scheduled for thread
+2019-11-28T18:33:18.2064476+02:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-11-28T18:33:18.2214076+02:00:Thread#0: Test #10/0 is finished on thread #0 as Failed within 21.6290956 seconds
+2019-11-28T18:33:18.2239267+02:00:Thread#0: Test #10/1 is started on thread #0
+2019-11-28T18:33:27.3746909+02:00:Thread#0:B:Given IDs '524901,703448,2643743' exists in the system
+2019-11-28T18:33:27.3766857+02:00:Thread#0:T:binding error: Ambiguous step definitions found for step 'Given IDs '524901,703448,2643743' exists in the system': OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem(Decimal), OpenWeatherAPITests:OpenWeatherAPITests.CallCurrentWeatherDataForSeveralCitiesSteps.GivenIDsExistsInTheSystem(String)
+2019-11-28T18:33:29.5247389+02:00:Thread#0:B:When I request to get the weather data by ids
+2019-11-28T18:33:29.5257371+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T18:33:30.2921310+02:00:Thread#0:B:Then Count '3' is returned in the response
+2019-11-28T18:33:30.2931287+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T18:33:33.5260831+02:00:Thread#0:B:And status code 'OK' is returned in the response
+2019-11-28T18:33:33.5280790+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T18:33:35.0022173+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T18:33:35.0022173+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #10
+2019-11-28T18:33:35.0022173+02:00:Thread#0:Scheduler: considering testitem #10 for thread 0
+2019-11-28T18:33:35.0022173+02:00:Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T18:33:35.0022173+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+2019-11-28T18:33:35.0022173+02:00:Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+2019-11-28T18:33:35.0022173+02:00:Thread#0:Scheduler: using testitem #10 for thread 0
+2019-11-28T18:33:35.0022173+02:00:Thread#0:Scheduler: Test #10 is scheduled for thread
+2019-11-28T18:33:35.0022173+02:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-11-28T18:33:35.0032147+02:00:Thread#0: Test #10/1 is finished on thread #0 as Failed within 16.7782906 seconds
+2019-11-28T18:33:35.0032147+02:00:Thread#0: Test #10/2 is started on thread #0

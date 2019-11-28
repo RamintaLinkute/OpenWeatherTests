@@ -1,0 +1,130 @@
+﻿2019-11-28T14:23:08.9069573+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-11-28T14:23:08.9069573+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.36 in Framework clr40 in x86 mode execution started
+2019-11-28T14:23:08.9069573+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-11-28T14:23:08.9488461+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T14:23:08.9488461+02:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults" (default)
+2019-11-28T14:23:08.9498424+02:00;VSTestExecutionThread;Info;Profile: 
+2019-11-28T14:23:08.9697889+02:00;VSTestExecutionThread;Info;Log file path: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults\Unnamed project__2019-11-28T142308.log
+2019-11-28T14:23:08.9807597+02:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-11-28T14:23:08.9857797+02:00;Thread#13;Info;Checking license
+2019-11-28T14:23:08.9987486+02:00;Thread#13;Info;Evaluation mode: test execution starts in 9 seconds... (this delay is removed in the registered version)
+2019-11-28T14:23:17.9999976+02:00;Thread#13;Info;Evaluation delay finished.
+2019-11-28T14:23:18.0099681+02:00;Thread#13;Info;License check completed
+2019-11-28T14:23:18.0099681+02:00;Thread#13;Info;starting test run
+2019-11-28T14:23:18.0239303+02:00;Thread#13;Info;Discovering target: Default
+2019-11-28T14:23:18.0239303+02:00;Thread#13;Info;Discovering tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T14:23:18.2812780+02:00;Thread#13;Info;Discovered tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T14:23:18.2822396+02:00:Test Suite Dump
+2019-11-28T14:23:18.2832374+02:00:#0: Unnamed project/ - 
+2019-11-28T14:23:18.2832374+02:00:#1: Default - 
+2019-11-28T14:23:18.2832374+02:00:#2: OpenWeatherAPITests - 
+2019-11-28T14:23:18.2832374+02:00:#3: CallCurrentWeatherDataForOneLocation - 
+2019-11-28T14:23:18.3201378+02:00:#4: Call current weather data for one location by city name - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForOneLocation/Scenario:Call+current+weather+data+for+one+location+by+city+name
+2019-11-28T14:23:18.3201378+02:00:End: Test Suite Dump
+2019-11-28T14:23:18.3400843+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T14:23:18.3421155+02:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-11-28T14:23:18.3421155+02:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-11-28T14:23:18.3451065+02:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T14:23:18.3451065+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-11-28T14:23:18.3451065+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-11-28T14:23:18.3451065+02:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-11-28T14:23:18.3460682+02:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-11-28T14:23:18.3470656+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T14:23:18.3490928+02:00:Thread #0: creating new test thread executor for OpenWeatherAPITests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-11-28T14:23:18.3500905+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T14:23:18.3520856+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T14:23:18.3530506+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-11-28T14:23:18.6143892+02:00:test thread #0 error: System.Configuration.ConfigurationErrorsException: Configuration system failed to initialize ---> System.Configuration.ConfigurationErrorsException: Unrecognized configuration section settings. (C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll.config line 3)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   at System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   at System.Configuration.ClientConfigurationSystem.PrepareClientConfigSystem(String sectionName)
+   at System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at TechTalk.SpecFlow.Configuration.ConfigurationLoader.Load(SpecFlowConfiguration specFlowConfiguration) in D:\a\1\s\TechTalk.SpecFlow\Configuration\ConfigurationLoader.cs:line 100
+   at TechTalk.SpecFlow.Configuration.DefaultRuntimeConfigurationProvider.LoadConfiguration(SpecFlowConfiguration specFlowConfiguration) in D:\a\1\s\TechTalk.SpecFlow\Configuration\DefaultRuntimeConfigurationProvider.cs:line 17
+   at TechTalk.SpecFlow.Infrastructure.ContainerBuilder.CreateGlobalContainer(Assembly testAssembly, IRuntimeConfigurationProvider configurationProvider) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\ContainerBuilder.cs:line 48
+   at TechTalk.SpecFlow.TestRunnerManager.CreateTestRunnerManager(Assembly testAssembly, IContainerBuilder containerBuilder) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 215
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunnerManager(Assembly testAssembly, IContainerBuilder containerBuilder, Boolean createIfMissing) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 201
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(Assembly testAssembly, Nullable`1 managedThreadId, IContainerBuilder containerBuilder) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 242
+   at OpenWeatherAPITests_SpecFlowPlusRunnerAssemblyHooks.AssemblyInitialize() in C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\obj\Debug\SpecFlow.Plus.Runner.AssemblyHooks.cs:line 8
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunAssemblyInitializeExecutors(ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(ITestAssemblyExecutorState executorState, ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TechTalk.SpecRun.Framework.ITestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+2019-11-28T14:23:18.6153870+02:00:test thread error: TechTalk.SpecRun.Framework.SpecRunException: At least one test thread aborted. ---> System.Configuration.ConfigurationErrorsException: Configuration system failed to initialize ---> System.Configuration.ConfigurationErrorsException: Unrecognized configuration section settings. (C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll.config line 3)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   at System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   at System.Configuration.ClientConfigurationSystem.PrepareClientConfigSystem(String sectionName)
+   at System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at TechTalk.SpecFlow.Configuration.ConfigurationLoader.Load(SpecFlowConfiguration specFlowConfiguration) in D:\a\1\s\TechTalk.SpecFlow\Configuration\ConfigurationLoader.cs:line 100
+   at TechTalk.SpecFlow.Configuration.DefaultRuntimeConfigurationProvider.LoadConfiguration(SpecFlowConfiguration specFlowConfiguration) in D:\a\1\s\TechTalk.SpecFlow\Configuration\DefaultRuntimeConfigurationProvider.cs:line 17
+   at TechTalk.SpecFlow.Infrastructure.ContainerBuilder.CreateGlobalContainer(Assembly testAssembly, IRuntimeConfigurationProvider configurationProvider) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\ContainerBuilder.cs:line 48
+   at TechTalk.SpecFlow.TestRunnerManager.CreateTestRunnerManager(Assembly testAssembly, IContainerBuilder containerBuilder) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 215
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunnerManager(Assembly testAssembly, IContainerBuilder containerBuilder, Boolean createIfMissing) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 201
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(Assembly testAssembly, Nullable`1 managedThreadId, IContainerBuilder containerBuilder) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 242
+   at OpenWeatherAPITests_SpecFlowPlusRunnerAssemblyHooks.AssemblyInitialize() in C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\obj\Debug\SpecFlow.Plus.Runner.AssemblyHooks.cs:line 8
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunAssemblyInitializeExecutors(ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(ITestAssemblyExecutorState executorState, ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TechTalk.SpecRun.Framework.ITestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+2019-11-28T14:23:18.6163843+02:00:Trying to cancel thread
+2019-11-28T14:23:18.6163843+02:00:Thread cancelled
+2019-11-28T14:23:18.6223675+02:00:Thread#-1: Test #4/0 is started on thread #-1
+2019-11-28T14:23:18.6243630+02:00:Thread#-1: Test #4/0 is finished on thread #-1 as Skipped within 0.0009977 seconds
+2019-11-28T14:23:18.6253604+02:00:Thread#-1:Scheduler: get next test for thread -1
+2019-11-28T14:23:18.6253604+02:00:Thread#:Scheduler: at the end of normal test queue
+2019-11-28T14:23:18.6253604+02:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-11-28T14:23:18.6343361+02:00;Thread#13;Info;test run finished
+2019-11-28T14:23:18.6343361+02:00;Thread#13;Info;publishing test results
+2019-11-28T14:23:18.6542822+02:00;Thread#13;Info;test results published
+2019-11-28T14:23:18.6542822+02:00;Thread#13;Info;generating reports
+2019-11-28T14:23:18.7602282+02:00;Thread#13;Info;Starting external report generation process
+2019-11-28T14:23:19.2391095+02:00;Thread#13;Error;Could not generate test run result reports. An error occurred in the generator.
+2019-11-28T14:23:19.2391095+02:00;Thread#13;Error;External program returned exit code '-1'
+2019-11-28T14:23:19.2391095+02:00;Thread#13;Info;Failed generating reports
+2019-11-28T14:23:19.2480855+02:00:Total: 1
+2019-11-28T14:23:19.2500795+02:00:Succeeded: 0
+2019-11-28T14:23:19.2510766+02:00:Ignored: 0
+2019-11-28T14:23:19.2510766+02:00:Pending: 0
+2019-11-28T14:23:19.2510766+02:00:Skipped: 1
+2019-11-28T14:23:19.2520739+02:00:Failed: 0
+2019-11-28T14:23:19.2530709+02:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

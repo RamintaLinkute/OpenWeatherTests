@@ -1,0 +1,84 @@
+﻿2019-11-28T10:37:08.4531425+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-11-28T10:37:08.4531425+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.36 in Framework clr40 in x86 mode execution started
+2019-11-28T10:37:08.4531425+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-11-28T10:37:08.4920384+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T10:37:08.4920384+02:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults" (default)
+2019-11-28T10:37:08.4920384+02:00;VSTestExecutionThread;Info;Profile: 
+2019-11-28T10:37:08.5182598+02:00;VSTestExecutionThread;Info;Log file path: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\TestResults\Unnamed project__2019-11-28T103708.log
+2019-11-28T10:37:08.5309340+02:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-11-28T10:37:08.5389127+02:00;Thread#14;Info;Checking license
+2019-11-28T10:37:08.5558674+02:00;Thread#14;Info;Evaluation mode: test execution starts in 12 seconds... (this delay is removed in the registered version)
+2019-11-28T10:37:20.5580455+02:00;Thread#14;Info;Evaluation delay finished.
+2019-11-28T10:37:20.5730405+02:00;Thread#14;Info;License check completed
+2019-11-28T10:37:20.5750393+02:00;Thread#14;Info;starting test run
+2019-11-28T10:37:20.6268632+02:00;Thread#14;Info;Discovering target: Default
+2019-11-28T10:37:20.6288558+02:00;Thread#14;Info;Discovering tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T10:37:21.1701368+02:00;Thread#14;Info;Discovered tests from assembly: C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\OpenWeatherAPITests.dll
+2019-11-28T10:37:21.1711430+02:00:Test Suite Dump
+2019-11-28T10:37:21.1722115+02:00:#0: Unnamed project/ - 
+2019-11-28T10:37:21.1722115+02:00:#1: Default - 
+2019-11-28T10:37:21.1722115+02:00:#2: OpenWeatherAPITests - 
+2019-11-28T10:37:21.1722115+02:00:#3: CallCurrentWeatherDataForOneLocation - 
+2019-11-28T10:37:21.2120304+02:00:#4: Call current weather data for one location by city name - TestAssembly:OpenWeatherAPITests/Feature:CallCurrentWeatherDataForOneLocation/Scenario:Call+current+weather+data+for+one+location+by+city+name
+2019-11-28T10:37:21.2120304+02:00:End: Test Suite Dump
+2019-11-28T10:37:21.2359675+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T10:37:21.2379611+02:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-11-28T10:37:21.2379611+02:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-11-28T10:37:21.2449092+02:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T10:37:21.2449092+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-11-28T10:37:21.2449092+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-11-28T10:37:21.2449092+02:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-11-28T10:37:21.2459442+02:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-11-28T10:37:21.2469036+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-11-28T10:37:21.2499326+02:00:Thread #0: creating new test thread executor for OpenWeatherAPITests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-11-28T10:37:21.2509267+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T10:37:21.2638948+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-11-28T10:37:21.2648561+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-11-28T10:37:21.6368603+02:00:Thread#0:T:-> Loading plugin C:\Users\raminta.linkute\Desktop\Seb\OpenWeatherTests\OpenWeatherAPITests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-11-28T10:37:21.6458725+02:00:Thread#0:T:-> Using default config
+2019-11-28T10:37:22.3280486+02:00:Thread#0: Test #4/0 is started on thread #0
+2019-11-28T10:37:22.3520896+02:00:Thread#0:B:Given I have entered London as a city name
+2019-11-28T10:37:34.2155739+02:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-11-28T10:37:35.4884599+02:00:Thread#0:B:When I call current weather data
+2019-11-28T10:37:35.4934457+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T10:37:35.7680409+02:00:Thread#0:B:Then the result should be Lon
+2019-11-28T10:37:35.8377841+02:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2019-11-28T10:37:35.8377841+02:00:Thread#0:T:        [Then(@"the result should be Lon")]
+2019-11-28T10:37:35.8377841+02:00:Thread#0:T:        public void ThenTheResultShouldBeLon()
+2019-11-28T10:37:35.8377841+02:00:Thread#0:T:        {
+2019-11-28T10:37:35.8377841+02:00:Thread#0:T:            ScenarioContext.Current.Pending();
+2019-11-28T10:37:35.8377841+02:00:Thread#0:T:        }
+2019-11-28T10:37:36.5167256+02:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2019-11-28T10:37:36.5177230+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T10:37:36.5187204+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-11-28T10:37:36.5187204+02:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-11-28T10:37:36.5187204+02:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T10:37:36.5187204+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-11-28T10:37:36.5187204+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-11-28T10:37:36.5188400+02:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-11-28T10:37:36.5188400+02:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-11-28T10:37:36.5188400+02:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-11-28T10:37:36.5486403+02:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 14.2205917 seconds
+2019-11-28T10:37:36.5506347+02:00:Thread#0: Test #4/1 is started on thread #0
+2019-11-28T10:37:37.9543982+02:00:Thread#0:B:Given I have entered London as a city name
+2019-11-28T10:37:38.1668293+02:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-11-28T10:37:39.1419517+02:00:Thread#0:B:When I call current weather data
+2019-11-28T10:37:39.1419517+02:00:Thread#0:T:skipped because of previous errors
+2019-11-28T10:37:39.4352528+02:00:Thread#0:B:Then the result should be Lon
+2019-11-28T10:37:39.4403556+02:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2019-11-28T10:37:39.4403556+02:00:Thread#0:T:        [Then(@"the result should be Lon")]
+2019-11-28T10:37:39.4403556+02:00:Thread#0:T:        public void ThenTheResultShouldBeLon()
+2019-11-28T10:37:39.4412334+02:00:Thread#0:T:        {
+2019-11-28T10:37:39.4412334+02:00:Thread#0:T:            ScenarioContext.Current.Pending();
+2019-11-28T10:37:39.4412334+02:00:Thread#0:T:        }
+2019-11-28T10:37:41.4562637+02:00:Thread#0:Scheduler: get next test for thread 0
+2019-11-28T10:37:41.4572615+02:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-11-28T10:37:41.4572615+02:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-11-28T10:37:41.4572615+02:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-11-28T10:37:41.4572615+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-11-28T10:37:41.4572615+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-11-28T10:37:41.4572615+02:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-11-28T10:37:41.4572615+02:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-11-28T10:37:41.4572615+02:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-11-28T10:37:41.4582578+02:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 4.9076231 seconds
+2019-11-28T10:37:41.4594535+02:00:Thread#0: Test #4/2 is started on thread #0
